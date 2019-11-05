@@ -1,0 +1,227 @@
+.banner {
+  color: white;
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  padding-top:5vh;
+}
+
+.banner h1 {
+  font-size: 30px;
+}
+
+.banner h2 {
+  font-size: 1.8rem;
+  font-weight: lighter;
+  opacity: 0.8;
+  /*margin-bottom: 40px;*/
+}
+
+.banner h5 {
+  font-size: 0.8rem;
+  line-height: 1.3rem
+}
+
+
+.banner_content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  padding: 15% 0 0 5%;
+  width: 70%;
+}
+
+.banner_content h2{
+line-height: 2.5rem;
+}
+
+
+.banner_info {
+ padding-top: 5vh;
+}
+
+.banner_info h5{
+letter-spacing: 0.07rem;
+}
+
+.img_work {
+ background-size: cover;
+ background-position: center;
+ height: 75vh;
+ width: 100%;
+ margin: 3vh 0;
+}
+
+.img_work_nextel {
+ background-size: cover;
+background-position: center;
+ height: 65vh;
+ width: 100%;
+ margin: 3vh 0;
+}
+
+
+.more_link {
+  color: yellow;
+}
+
+
+.img_work_centered {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: auto;
+  margin: 3vh 0;
+}
+
+
+
+.video_work_centered {
+  margin:10vh 0 10vh 0;
+}
+
+.img_elo_beta {
+  margin-top: 20vh;
+}
+
+
+.card_info {
+  height: 15vh;
+  color: white;
+  padding-top: 15vh;
+  padding-bottom: 28vh;
+
+ /* display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;*/
+  font-weight: 300;
+  font-size: 0.8rem;
+  line-height: 1.4rem
+}
+
+
+
+
+.card_info_centered {
+    height: 15vh;
+    color: white;
+    padding-top: 11vh;
+    padding-bottom: 25vh;
+    font-weight: 300;
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+    width: 90%;
+}
+
+.content_work-description {
+  width: 90%;
+  color: white;
+  font-weight: 100;
+}
+
+
+.img_video img {
+  margin-bottom: 15vh;
+}
+
+.space_img {
+ margin: 3% 0;
+}
+
+
+@media screen and (max-width: 992px) {
+  .card_info {
+    padding-top: 7vh;
+    padding-bottom: 15vh;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .card_info_centered {
+    padding-top: 7vh;
+    padding-bottom: 15vh;
+  }
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .card_info {
+  padding-top: 12vh;
+  padding-bottom: 35vh;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .card_info_centered {
+    padding-top: 9vh;
+    padding-bottom: 42vh;
+    padding-left: 1rem;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .content_work-description {
+   padding-left: 1rem;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .img_work_centered {
+   height: 29vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .banner_content {
+   width: 90%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .img_work_nextel {
+   height: 30vh;
+  }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .img_work_centered {
+   height: 30vh;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .img_work {
+   height:29vh;
+  }
+}
+
+
+@media screen and (max-width: 430px) {
+  .card_info_centered {
+    padding-bottom: 58vh;
+  }
+
+@media screen and (max-width: 430px) {
+  .img_elo_beta {
+  margin-top: 30vh;
+}
+
+@media screen and (max-width: 430px) {
+  .banner_content h2 {
+    line-height: 2rem;
+    font-size: 1.4rem;
+}
+
+
+

@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+
+.no-transition *, .swiper-container *, .mfp-container *, .skillbar-bar-main *, .portfolio-grid *, .parallax, .rev-slider *, .header-searchbar *, .header-social-icon *, .dropdropdown-menu * { transition-timing-function: none; -moz-transition-timing-function: none; -webkit-transition-timing-function: none; -o-transition-timing-function: none; -ms-transition-timing-function: none; transition-duration: 0s; -moz-transition-duration: 0s; -webkit-transition-duration: 0s; -o-transition-duration: 0s; -ms-transition-duration: 0s; }
+.absolute-middle-center {left: 50%; top: 50%; position: absolute; -ms-transform: translateX(-50%) translateY(-50%); -moz-transform: translateX(-50%) translateY(-50%); -webkit-transform: translateX(-50%) translateY(-50%); transform: translateX(-50%) translateY(-50%); -o-transform: translateX(-50%) translateY(-50%); }
+
+.width-100 {width:100%;}
+.width-50 {width:50%;}
+
+
+/* ===================================
+    Magnific popup
+====================================== */
+
+.mfp-bg, .my-mfp-zoom-in.mfp-ready.mfp-bg, .my-mfp-slide-bottom.mfp-ready.mfp-bg {background: #000; opacity: 0.93;}
+.mfp-bg, .mfp-wrap {z-index: 10007}
+#popup-form {cursor:default;}
+.mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {color:#fff; background: transparent}
+.mfp-iframe-scaler iframe {box-shadow: none;}
+
+.mfp-close,.mfp-close:active {opacity: 1; background-color:transparent; color: #fff; right: 30px; top: 30px;}
+.modal-popup-main .mfp-close, .modal-popup-main .mfp-close:active { right: 0; top: 0;}
+
+.lightbox-gallery a{position: relative; display:block}
+.lightbox-gallery .gallary-over-layer{position: absolute; top: 0; left:0;}
+
+/* fade move animation for second dialog */
+.my-mfp-slide-bottom .zoom-anim-dialog {opacity: 0; -webkit-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; transition: all 0.3s ease-out; -webkit-transform: translateY(-20px) perspective(600px) rotateX(10deg); -moz-transform: translateY(-20px) perspective(600px) rotateX(10deg); -ms-transform: translateY(-20px) perspective(600px) rotateX(10deg); -o-transform: translateY(-20px) perspective(600px) rotateX(10deg); -ms-transform: translateY(-20px) perspective(600px) rotateX(10deg); transform: translateY(-20px) perspective(600px) rotateX(10deg);}
+
+/* dark overlay, start state */
+.my-mfp-slide-bottom.mfp-bg {opacity: 0;-webkit-transition: opacity 0.3s ease-out; -moz-transition: opacity 0.3s ease-out; -o-transition: opacity 0.3s ease-out; -ms-transition: opacity 0.3s ease-out; transition: opacity 0.3s ease-out;}
+
+/* animate out */
+.my-mfp-slide-bottom.mfp-removing.mfp-bg {opacity: 0;}
+
+/* simple fade transition */
+.mfp-fade.mfp-bg {opacity: 0; -webkit-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -ms-transition: all 0.3s ease-out; -o-transition: all 0.3s ease-out; transition: all 0.3s ease-out;}
+.mfp-fade.mfp-bg.mfp-ready {opacity: 0.97;}
+.mfp-fade.mfp-bg.mfp-removing {opacity: 0;}
+.mfp-fade.mfp-wrap .mfp-content {opacity: 0; -webkit-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out; -ms-transition: all 0.3s ease-out; transition: all 0.3s ease-out;}
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {opacity: 1;}
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {opacity: 0;}
+
+/* message box */
+.alert-dismissable .close, .alert-dismissible .close {top: 0}
